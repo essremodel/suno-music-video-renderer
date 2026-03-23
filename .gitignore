@@ -1,0 +1,26 @@
+# Rendered outputs — too large for git
+rendered/
+*.mp4
+*.mp3
+
+# macOS metadata
+.DS_Store
+._*
+**/.DS_Store
+**/.Spotlight-V100
+**/.Trashes
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Temp files written during rendering
+/tmp/cover_*.jpg
+/tmp/art_*.png
+/tmp/frame_*.png
+/tmp/gap_concat_*.mp4
+/tmp/concat_*.txt
